@@ -1,0 +1,196 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  outline: none;
+  border: none;
+  text-decoration: none;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+  /* height: 2000px; */
+}
+
+/* Header */
+/* Navigation */
+.nav-container {
+  display: flex;
+  padding: 20px 30px;
+  gap: 20px;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #87cefa;
+  z-index: 999;
+  position: fixed;
+  width: 100%;
+}
+
+.nav-container a img {
+  width: 100px;
+  height: 20px;
+  object-fit: cover;
+}
+
+.container-list {
+  display: flex;
+  gap: 30px;
+  align-items: center;
+}
+
+.container-list li {
+  list-style-type: none;
+  text-decoration: none;
+}
+
+.container-list li a {
+  color: black;
+  font-weight: 500;
+}
+
+/* Head */
+.header-text {
+  height: 500px;
+  background-image: url(../img/head-img.jpg);
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  background-repeat: no-repeat;
+  background-size: cover;
+  object-fit: cover;
+}
+
+.header-text h1 {
+  max-width: 600px;
+  margin: 0px 30px;
+}
+
+.header-text p {
+  margin: 0px 30px;
+  max-width: 600px;
+}
+
+.header-text a {
+  margin: 20px 30px;
+  padding: 10px 8px;
+  border: 1px solid black;
+  border-radius: 15px;
+  max-width: 120px;
+  text-align: center;
+  color: black;
+  transition: .2s;
+}
+
+.header-text a:hover {
+  background-color: black;
+  color: white;
+}
+
+/* main */
+
+.container {
+  padding: 4rem 30px 0px 30px;
+}
+
+.header-content {
+  text-align: center;
+  margin: 30px 0px;
+  font-size: 24px;
+}
+
+/* content 1 / tentang indoneisa*/
+
+.content1 {
+  display: flex;
+  justify-content: space-between;
+}
+
+.content1 article {
+  max-width: 650px;
+}
+
+.content1 article p {
+  font-size: 14px;
+}
+
+.content1 aside figure img {
+  width: 500px;
+  height: 290px;
+  object-fit: cover;
+  border-radius: 15px;
+  cursor: pointer;
+}
+
+/* content 2 / tempat wisata*/
+
+.wisata article {
+  font-size: 14px;
+}
+
+/* kartu wisata */
+.content2 {
+  display: flex;
+  gap: 10px;
+  margin-top: 20px;
+}
+
+.kartuwisata {
+  width: 300px;
+  border-radius: 8px;
+  overflow: hidden;
+  box-shadow: 0px 2px 4px #87cefa;
+}
+
+.kartuwisata img {
+  width: 100%;
+  height: auto;
+}
+
+.kartukonten {
+  padding: 16px;
+}
+
+.kartukonten h3 {
+  font-size: 16px;
+  font-weight: 600;
+}
+
+.kartukonten p {
+  margin-left: 0px;
+  font-size: 12px;
+}
+
+.kartukonten a {
+  font-size: 10px;
+  padding: 6px 4px;
+  border: 1px solid black;
+  color: black;
+  transition: .2s;
+  border-radius: 4px;
+}
+
+.kartukonten a:hover {
+  background-color: black;
+  color: white;
+}
+
+.kartukonten a, .kartukonten p, h3 {
+  margin: 10px 0px;
+}
+
+/* peta */
+.peta iframe{
+  border-radius: 8px;
+}
+
+/* footer */
+footer {
+  background-color: #87cefa;
+  padding: 20px 30px;
+  margin: 30px 0px 0px 0px;
+  text-align: center;
+}
